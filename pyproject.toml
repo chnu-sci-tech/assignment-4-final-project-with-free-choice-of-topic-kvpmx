@@ -1,0 +1,22 @@
+[project]
+name = "assignment-4-final-project-with-free-choice-of-topic-kvpmx"
+version = "0.1.0"
+description = "Maksym Kovpak. Group 501"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "pandas>=2.3.3",
+    "numpy>=2.2.6",
+    "matplotlib>=3.10.7",
+    "seaborn>=0.13.2", 
+    "scikit-learn>=1.7.2",
+    "nltk>=3.9.2",
+    "wordcloud>=1.9.4",
+    "kagglehub>=0.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.7",
+]
